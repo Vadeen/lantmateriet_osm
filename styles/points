@@ -1,0 +1,19 @@
+# Road barrier
+layer=vs & kkod=345 [0x0100 level 2]
+
+# Communication tower
+layer=bs & kkod=373 [0x0200 level 2]
+
+# Light house
+layer=bs & kkod=362 [0x0300 level 2]
+
+# Wind turbine
+layer=bs & kkod=756 [0x0400 level 2]
+
+# Shelter
+layer=bs & kkod=775 [0x0600 level 2]
+
+# Bath
+layer=bs & kkod=777 [0x0500 level 2]
+
+# TODO Bath etc...

@@ -1,0 +1,410 @@
+[_id]
+FID=909
+ProductCode=1
+CodePage=1252
+[end]
+
+[_drawOrder]
+Type=0x1b,8
+Type=0x1a,6
+Type=0x19,6
+Type=0x18,5
+Type=0x17,6
+Type=0x16,6
+Type=0x15,6
+Type=0x14,7
+Type=0x13,6
+Type=0x12,6
+Type=0x11,6
+Type=0x10,4
+Type=0xf,4
+Type=0xe,4
+Type=0x0100,6
+Type=0x0200,6
+Type=0x0300,6
+Type=0x0400,6
+Type=0x0500,6
+Type=0x0600,6
+Type=0xd,9
+Type=0xc,1
+Type=0xb,1
+Type=0xa,1
+Type=0x9,1
+Type=0x8,1
+Type=0x7,1
+Type=0x6,1
+Type=0x5,1
+Type=0x4,1
+Type=0x3,1
+Type=0x2,6
+Type=0x1,6
+[end]
+
+[_line]
+Type=0x1b
+String=0x04,"Rail road"
+Xpm="32 4 2 1"
+"a c #000000"
+". c #FFFFFF"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aaaaaaaaaaaaaaaa................"
+"aaaaaaaaaaaaaaaa................"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+[end]
+
+
+[_line]
+Type=0x1a
+String=0x04,"Trail"
+Xpm="32 1 2 1"
+"a c #000000"
+"b c none"
+"aabbaabbaabbaabbaabbaabbaabbaabb"
+[end]
+
+[_line]
+Type=0x19
+String=0x04,"Big street"
+LineWidth=1
+BorderWidth=1
+Xpm="0 0 2 1"
+"a c #FFFFFF"
+"b c #000000"
+[end]
+
+[_line]
+Type=0x18
+String=0x04,"Street"
+LineWidth=1
+Xpm="0 0 1 1"
+"a c #000000"
+[end]
+
+[_line]
+Type=0x17
+String=0x04,"Marked trail"
+Xpm="32 1 2 1"
+"a c #000000"
+"b c none"
+"aaaabbbbaaaabbbbaaaabbbbaaaabbbb"
+[end]
+
+[_line]
+Type=0x16
+String=0x04,"Marked trail"
+Xpm="32 1 2 1"
+"a c #93831D"
+"b c none"
+"aaaabbbbaaaabbbbaaaabbbbaaaabbbb"
+[end]
+
+[_line]
+Type=0x15
+String=0x04,"Highway"
+LineWidth=1
+BorderWidth=1
+Xpm="0 0 2 1"
+"a c #FFFFFF"
+"b c #E85625"
+[end]
+
+[_line]
+Type=0x14
+String=0x04,"Class 3 road"
+LineWidth=2
+Xpm="0 0 1 1"
+"a c #E85625"
+[end]
+
+[_line]
+Type=0x13
+String=0x04,"Class 2 road"
+LineWidth=1
+BorderWidth=1
+Xpm="0 0 2 1"
+"a c #F49F8A"
+"b c #E85625"
+[end]
+
+[_line]
+Type=0x12
+String=0x04,"Class 1 road"
+LineWidth=2
+BorderWidth=1
+Xpm="0 0 2 1"
+"a c #F49F8A"
+"b c #E85625"
+[end]
+
+[_line]
+Type=0x11
+String=0x04,"Bicycle path"
+LineWidth=1
+Xpm="0 0 1 1"
+"a c #000000"
+[end]
+
+[_line]
+Type=0x10
+String=0x04,"Water stream class 3"
+LineWidth=1
+Xpm="0 0 1 1"
+"a c #0099FF"
+[end]
+
+[_line]
+Type=0xf
+String=0x04,"Water stream class 2"
+LineWidth=1
+Xpm="0 0 1 1"
+"a c #0099FF"
+[end]
+
+[_line]
+Type=0xe
+String=0x04,"Water stream class 1"
+LineWidth=2
+Xpm="0 0 1 1"
+"a c #0099FF"
+[end]
+
+[_point]
+Type=0x0100
+String=0x04,"Road barrier"
+DayXpm="10 5 3 1"
+"a  c #000000"
+".  c #FFFFFF"
+"   c none"
+"...    ..."
+".a......a."
+".aaaaaaaa."
+".a......a."
+"...    ..."
+[end]
+
+[_point]
+Type=0x0200
+String=0x04,"Tower"
+DayXpm="9 9 3 1"
+"a  c #000000"
+".  c #FFFFFF"
+"   c none"
+"...   ..."
+".a.. ..a."
+"..a...a.."
+" ..a.a.. "
+"  ..a..  "
+" ..a.a.. "
+"..a...a.."
+".a.. ..a."
+"...   ..."
+[end]
+
+[_point]
+Type=0x0300
+String=0x04,"Light house"
+DayXpm="5 9 4 1"
+"r  c #A21515"
+"y  c #DAC01A"
+"b  c #000000"
+".  c #FFFFFF"
+"....."
+".bbb."
+".yyy."
+".rrr."
+"....."
+".rrr."
+"....."
+".rrr."
+"....."
+[end]
+
+[_point]
+Type=0x0400
+String=0x04,"Wind turbine"
+DayXpm="9 13 3 1"
+".  c #000000"
+"a  c #FFFFFF"
+"   c none"
+"...   ..."
+".a.. ..a."
+"..a...a.."
+" ..a.a.. "
+"  ..a..  "
+" ..aaa.. "
+"..a.a.a.."
+".a..a..a."
+"....a...."
+"   .a.   "
+"   .a.   "
+"   .a.   "
+"   ...   "
+[end]
+
+[_point]
+Type=0x0500
+String=0x04,"Bath"
+DayXpm="13 11 3 1"
+"b  c #2145F8"
+".  c #FFFFFF"
+"   c none"
+"  ....       "
+" ..bb..      "
+"..bbbb......."
+".bb..bbb..bb."
+".......bbbb.."
+" ..bb...bb.  "
+"..bbbb......."
+".bb..bbb..bb."
+".......bbbb.."
+"      ..bb.. "
+"       ....  "
+[end]
+
+[_point]
+Type=0x0600
+String=0x04,"Shelter"
+DayXpm="12 7 4 1"
+"b  c #B48053"
+"@  c #000000"
+".  c #FFFFFF"
+"   c none"
+"    ....    "
+"   ..bb..   "
+"  ..bbbb..  "
+" ..bb@@bb.. "
+"..bb@@@@bb.."
+".bb@@@@@@bb."
+"............"
+[end]
+
+[_line]
+Type=0xd
+String=0x04,"Power line"
+Xpm="32 5 2 1"
+"a c #000000"
+". c none"
+"aa.............................."
+"aa.............................."
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aa.............................."
+"aa.............................."
+[end]
+
+[_polygon]
+Type=0xc
+String=0x04,"Water"
+Xpm="0 0 1 1"
+"a c #0099FF"
+[end]
+
+[_polygon]
+Type=0xb
+String=0x04,"Water"
+Xpm="32 32 2 1"
+"a   c #CAEAFF"
+"b   c #0099ff"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+[end]
+
+[_polygon]
+Type=0xa
+String=0x04,"Forest"
+Xpm="0 0 1 1"
+"a c #33CC33"
+[end]
+
+[_polygon]
+Type=0x9
+String=0x04,"Field"
+Xpm="0 0 1 1"
+"a c #E3E5BB"
+[end]
+
+[_polygon]
+Type=0x8
+String=0x04,"Residential class 3"
+Xpm="0 0 1 1"
+"a c #666666"
+[end]
+
+[_polygon]
+Type=0x7
+String=0x04,"Residential class 2"
+Xpm="0 0 1 1"
+"a c #999999"
+[end]
+
+[_polygon]
+Type=0x6
+String=0x04,"Residential class 1"
+Xpm="0 0 1 1"
+"a c #BBBBBB"
+[end]
+
+[_polygon]
+Type=0x5
+String=0x04,"Recreational"
+Xpm="0 0 1 1"
+"a c #D2FDC8"
+[end]
+
+[_polygon]
+Type=0x4
+String=0x04,"Industrial"
+Xpm="0 0 1 1"
+"a c #AB7280"
+[end]
+
+[_polygon]
+Type=0x3
+String=0x04,"Farm land"
+Xpm="0 0 1 1"
+"a c #E6E38C"
+[end]
+
+[_line]
+Type=0x2
+String=0x04,"Trail"
+LineWidth=1
+Xpm="0 0 1 1"
+"a c #6A5800"
+[end]
+
+[_polygon]
+Type=0x1
+String=0x04,"Big building"
+Xpm="0 0 1 1"
+"a c #555555"
+[end]

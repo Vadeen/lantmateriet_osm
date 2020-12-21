@@ -1,0 +1,34 @@
+# Water
+layer=my & kkod=1 [0xc level 4]
+
+# Field
+layer=my & (kkod=5 | kkod=17) [0x9 level 3]
+
+# Marsh
+layer=my & (kkod=18) [0xb level 4]
+
+# Forest TODO 19 is leafy forest, 2 is mixed
+layer=my & (kkod=2 | kkod=19) [0xa level 4]
+
+# Residental class 3
+layer=my & (kkod=12) [0x8 level 3]
+
+# Residental class 2
+layer=my & (kkod=13) [0x7 level 3]
+
+# Residental class 1
+layer=my & (kkod=14) [0x6 level 3]
+
+# Recreational
+layer=my & (kkod=16) [0x5 level 3]
+
+# Industrial
+(layer=my & kkod=15) | (layer=kl & kkod=2670) [0x4 level 3]
+
+# Farmland TODO 7 is orchard
+layer=my & (kkod=4 | kkod=7) [0x3 level 3]
+
+# Big building
+layer=by & kkod=690 [0x1 level 2]
+
+# TODO air strip etc...

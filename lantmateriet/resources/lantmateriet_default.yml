@@ -1,0 +1,670 @@
+render:
+  al:
+  # as: TODO
+  # at: TODO
+  bl:
+  bs:
+  by:
+  # fl: TODO
+  fs:
+  # gl: TODO
+  # gs: TODO
+  hl:
+  # hs: TODO
+  jl:
+  # js: TODO
+  kl:
+  ks:
+  my:
+  mv:
+  mo:
+  ma:
+  mb:
+  ms:
+  mx:
+  # ml: TODO
+  # sl: TODO
+  # ss: TODO
+  nl:
+  # ns: TODO
+  ql:
+  vl:
+  vo:
+  vs:
+  oh:
+  # os: TODO
+  # ot: TODO
+  # tx: TODO
+  # tl: TODO
+
+
+files:
+- name: al
+  description: Gränser, linjeskikt
+  kkods:
+    21:
+      title: Riksgräns
+      tags:
+        boundary: administrative
+        admin_level: 2
+    23:
+      title: Länsgräns
+      tags:
+        boundary: administrative
+        admin_level: 6
+    24:
+      title: Kommungräns
+      tags:
+        boundary: administrative
+        admin_level: 10
+
+- name: bl
+  description: Byggnader, övriga anläggningar och områden
+  kkods:
+    309:
+      title: Brygga
+      tags:
+        man_made: pier
+    337:
+      title: Dammbyggnad, större, kantlinje
+      tags:
+        waterway: dam
+    339:
+      title: Pir, mittlinje
+      tags:
+        man_made: pier
+    391:
+      title: Renstängsel
+      tags:
+        barrier: fence
+    725:
+      title: Flygbana, obelagd
+      tags:
+        aeroway: airstrip
+
+- name: bs
+  description: Bebyggelsesymboler
+  kkods:
+    362:
+      title: Fyr
+      tags:
+        man_made: lighthouse
+    369:
+      title: Slussport
+      tags:
+        lock: 'yes'
+    373:
+      title: Mast
+      tags:
+        man_made: tower
+        'tower:type': communication
+    756:
+      title: Vindkraftverk
+      tags:
+        power: generator
+        'generator:source': wind
+    775:
+      title: Vindskydd
+      tags:
+        amenity: shelter
+    777:
+      title: Badplats
+      tags:
+        amenity: public_bath
+    778:
+      title: Campingplats
+      tags:
+        tourism: camp_site
+
+- name: by
+  description: Byggnader, ytskikt
+  kkods:
+    690:
+      title: Byggnadsyta, större byggnad
+      tags:
+        building: 'yes'
+    728:
+      title: Flygbana, belagd
+      tags:
+        aeroway: runway
+
+- name: fs
+  description: Fornlämningssymboler, punktskikt
+  kkods:
+    341:
+      title: Milstolpe
+      tags:
+        historic: milestone
+    746:
+      title: Ruin
+      tags:
+        historic: ruins
+
+- name: hl
+  description: Hydrografi, linjeskikt
+  kkods:
+    288:
+      title: Vattentub, vattenränna
+      tags:
+        man_made: pipeline
+    441:
+      title: Vattendrag, kartografisk klass 1
+      tags:
+        class: 1
+        waterway: stream
+    455:
+      title: Vattendrag, kartografisk klass 2
+      tags:
+        class: 2
+        waterway: stream
+    456:
+      title: Vattendrag, kartografisk klass 2
+      tags:
+        class: 3
+        waterway: stream
+    513:
+      title: Fors
+      tags:
+        waterway: stream
+    516:
+      title: Vattenfall
+      tags:
+        natural: cliff
+
+- name: jl
+  description: Järnvägar, linjeskikt
+  kkods:
+    270:
+      title: Järnväg under byggnation
+      tags:
+        railway: construction
+    271:
+      title: Järnväg med enkelspår, ej elektrifierad
+      tags:
+        railway: rail
+        tracks: 2
+        electrified: 'no'
+    272:
+      title: Järnväg med enkelspår, elektrifierad
+      tags:
+        railway: rail
+        electrified: 'yes'
+    273:
+      title: Järnväg med dubbelspår, elektrifierad
+      tags:
+        railway: rail
+        tracks: 2
+        electrified: 'yes'
+    274:
+      title: Smalspårig ej elektrifierad järnväg
+      tags:
+        railway: light_rail
+        electrified: 'no'
+    275:
+      title: Smalspårig elektrifierad järnväg med enkelspår
+      tags:
+        railway: light_rail
+        electrified: 'yes'
+    276:
+      title: Smalspårig elektrifierad järnväg med dubbelspår
+      tags:
+        railway: light_rail
+        tracks: 2
+        electrified: 'yes'
+    278:
+      title: Järnväg före detta
+      tags:
+        railway: disused
+    279:
+      title: Industrispår/ museijärnväg
+      tags:
+        railway: preserved
+    286:
+      title: Järnväg i underfart
+      tags:
+        railway: rail
+        tunnel: 'yes'
+    293:
+      title: Spårväg, tunnelbana
+      tags:
+        railway: tram
+
+- name: kl
+  description: Kraftledningar, linjeskikt
+  kkods:
+    2611:
+      title: Kraftledning, stam
+      tags:
+        power: line
+    2612:
+      title: Kraftledning, region
+      tags:
+        power: line
+    2670:
+      title: Transformatorstationsområde
+      tags:
+        power: substation
+    2720:
+      title: Rörledning, pipeline
+      tags:
+        man_made: pipeline
+
+- name: ks
+  description: Transformatorsymbol, punktskikt
+  kkods:
+    375:
+      title: Transformator
+      tags:
+        power: transformer
+
+- name: my
+  description: Heltäckande markdata, ytskikt
+  kkods:
+    1:
+      title: Vattenyta
+      tags:
+        natural: water
+    2:
+      title: Skog, barr- och blandskog
+      tags:
+        natural: wood
+        leaf_type: mixed
+    4:
+      titel: Åker
+      tags:
+        landuse: farmland
+    5:
+      title: Annan öppen mark
+      tags:
+        natural: grassland
+    7:
+      title: Fruktodling
+      tags:
+        landuse: orchard
+    8:
+      title: Kalfjäll
+      tags:
+        natural: fell
+    10:
+      title: Fjällbjörkskog
+      tags:
+        natural: wood
+        leaf_type: broadleaved
+    12:
+      title: Sluten bebyggelse
+      tags:
+        landuse: residential
+    13:
+      title: Hög bebyggelse
+      tags:
+        landuse: residential
+    14:
+      title: Låg bebyggelse
+      tags:
+        landuse: residential
+    15:
+      title: Industriområde
+      tags:
+        landuse: industrial
+    16:
+      title: Fritidsbebyggelse
+      tags:
+        landuse: residential
+    17:
+      title: Annan öppen mark utan skogskontur
+      tags:
+        natural: wetland
+        wetland: marsh
+    18:
+      title: Vattenyta med diffus strandlinje
+      tags:
+        natural: wetland
+    19:
+      title: Lövskog
+      tags:
+        natural: wood
+        leaf_type: broadleaved
+
+- name: mo
+  description: Mark och skog, ytskikt
+  kkods:
+    2:
+      title: Barr och blandskog
+      tags:
+        natural: wood
+        leaf_type: mixed
+    5:
+      title: Öppen mark
+      tags:
+        natural: grassland
+    8:
+      title: Kalfjäll
+      tags:
+        natural: grassland
+    10:
+      title: Fjällbjörkskog
+      tags:
+        natural: wood
+        leaf_type: broadleaved
+    17:
+      title: Öppen mark utan skogskontur
+      tags:
+        natural: grassland
+    19:
+      title: Lövskog
+      tags:
+        natural: wood
+        leaf_type: broadleaved
+
+- name: ma
+  description: Odlad mark, ytskikt
+  kkods:
+    4:
+      title: Åker
+      tags:
+        landuse: farmland
+    7:
+      title: Fruktodling
+      tags:
+        landuse: orchard
+
+- name: ms
+  description: Sankmark och berg i dagen, ytskikt
+  kkods:
+    31:
+      title: Sankmark, svårframkomlig
+      tags:
+        wetland: bog
+    32:
+      title: Sankmark, normal
+      tags:
+        wetland: fen
+    33:
+      title: Berg i dagen
+      tags:
+        natural: bare_rock
+    35:
+      title: Sankmark, torvtäkt
+      tags:
+        wetland: fen
+    37:
+      title: Sankmark, blekvät
+      tags:
+        wetland: fen
+
+- name: mb
+  description: Bebyggelse, ytskikt
+  kkods:
+    12:
+      title: Sluten bebyggelse
+      tags:
+        landuse: residential
+    13:
+      title: Hög bebyggelse
+      tags:
+        landuse: residential
+    14:
+      title: Låg bebyggelse
+      tags:
+        landuse: residential
+    15:
+      title: Industriområde
+      tags:
+        landuse: industrial
+    16:
+      title: Fritidsbebyggelse
+      tags:
+        landuse: residential
+
+- name: mv
+  description: Vatten, ytskikt
+  kkods:
+    1:
+      title: Vattenyta
+      tags:
+        natural: water
+    18:
+      title: Vattenyta med diffus strandlinje
+      tags:
+        natural: wetland
+        wetland: marsh
+
+- name: mx
+  description: Blockig mark, ytskikt
+  kkods:
+    34:
+      title: Blockig mark
+      tags:
+        natural: shingle
+
+- name: nl
+  description: Naturvård, linjeskikt
+  kkods:
+    11:
+      title: Nationalpark
+      tags:
+        boundary: national_park
+    12:
+      title: Naturreservat
+      tags:
+        boundary: protected_area
+        leisure: nature_reserve
+
+- name: ql
+  description: Militärt skjutfält
+  kkods:
+    17:
+      title: Militärt skjutfält
+      tags:
+        landuse: military
+        military: range
+    96:
+      title: Militärt skjutfält
+      tags:
+        landuse: military
+
+- name: vl
+  description: Vägar, allmänna och enskilda, linjeskikt
+  kkods:
+    336:
+      title: Färjeled
+      tags:
+        route: ferry
+    5011:
+      title: Motorväg
+      tags:
+        highway: motorway
+    5014:
+      title: Allmän väg under byggnation
+      tags:
+        highway: construction
+        construction: secondary
+    5022:
+      title: Allmän väg klass 1
+      tags:
+        highway: trunk
+    5025:
+      title: Allmän väg klass 2
+      tags:
+        highway: primary
+    5029:
+      title: Allmän väg klass 3
+      tags:
+        highway: secondary
+    5032:
+      title: På- och avfartsväg klass 1
+      tags:
+        highway: trunk_link
+    5033:
+      title: På- och avfartsväg klass 2
+      tags:
+        highway: primary_link
+    5034:
+      title: På- och avfartsväg klass 3
+      tags:
+        highway: secondary_link
+    5044:
+      title: Genomfartsgata, -led
+      tags:
+        highway: tertiary
+    5051:
+      title: Gata, större
+      tags:
+        highway: tertiary
+    5056:
+      title: Gata
+      tags:
+        highway: residential
+    5058:
+      title: Gata i sluten bebyggelse
+      tags:
+        highway: residential
+    5061:
+      title: Bättre bilväg
+      tags:
+        highway: tertiary
+    5071:
+      title: Bilväg
+      tags:
+        highway: tertiary
+    5082:
+      title: Sämre bilväg
+      tags:
+        highway: unclassified
+    5091:
+      title: Uppfartsväg
+      tags:
+        highway: residential
+    5811:
+      title: Motorväg, i underfart
+      tags:
+        highway: motorway
+        level: '-1'
+    5822:
+      title: Allmän väg klass 1, i underfart
+      tags:
+        highway: trunk
+        level: '-1'
+    5825:
+      title: Allmän väg klass 2, i underfart
+      tags:
+        highway: primary
+        level: '-1'
+    5829:
+      title: Allmän väg klass 3, i underfart
+      tags:
+        highway: secondary
+        level: '-1'
+    5832:
+      title: På- och avfartsväg klass 1, i underfart
+      tags:
+        highway: trunk_link
+        level: '-1'
+    5833:
+      title: På- och avfartsväg klass 2, i underfart
+      tags:
+        highway: primary_link
+        level: '-1'
+    5834:
+      title: På- och avfartsväg klass 3, i underfart
+      tags:
+        highway: secondary_link
+        level: '-1'
+    5851:
+      title: Gata, större, i underfart
+      tags:
+        highway: tertiary
+        level: '-1'
+    5856:
+      title: Gata, i underfart
+      tags:
+        highway: residential
+        level: '-1'
+    5858:
+      title: Gata i sluten bebyggelse, i underfart
+      tags:
+        highway: residential
+        level: '-1'
+    5861:
+      title: Bättre bilväg, i underfart
+      tags:
+        highway: tertiary
+        level: '-1'
+    5871:
+      title: Bilväg, i underfart
+      tags:
+        highway: tertiary
+        level: '-1'
+    5882:
+      title: Sämre bilväg, i underfart
+      tags:
+        highway: unclassified
+        level: '-1'
+    5891:
+      title: Uppfartsväg, i underfart
+      tags:
+        highway: residential
+        level: '-1'
+
+- name: vo
+  description: Övriga vägar, linjeskikt
+  kkods:
+    264:
+      title: Gångstig
+      tags:
+        highway: path
+    265:
+      title: Vandringsled
+      tags:
+        highway: path
+        sac_scale: hiking
+    266:
+      title: Elljusspår
+      tags:
+        highway: path
+        trail_visibility: excellent
+    268:
+      title: Vandringsled, längs väg
+      tags:
+        highway: path
+        sac_scale: hiking
+    284:
+      title: Linbana
+      tags:
+        aerialway: cable_car
+    332:
+      title: Gångbro och spång
+      tags:
+        highway: footway
+        bridge: 'yes'
+    5095:
+      title: Traktorväg
+      tags:
+        highway: track
+    5098:
+      title: Cykelväg, parkväg
+      tags:
+        highway: footway
+        bicycle: 'yes'
+    5899:
+      title: Underfart för övrig väg eller led
+      tags:
+        highway: track
+        level: '-1'
+
+- name: vs
+  description: Vägsymboler, punktskikt
+  kkods:
+    345:
+      title: Vägbom
+      tags:
+        barrier: gate
+
+- name: oh
+  description: Höjdkurvor, linjeskikt
+  kkods:
+    568:
+      description: Höjdkurva, normal
+      tags:
+        data: height_curve
+

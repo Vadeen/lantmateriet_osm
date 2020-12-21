@@ -1,0 +1,11 @@
+[package]
+name = "cli"
+version = "0.1.0"
+authors = ["Felix Stridsberg <felixstridsberg@gmail.com>"]
+edition = "2018"
+description = "Cli interface for vadeen gis."
+
+[dependencies]
+vadeen_osm = "0.4"
+lantmateriet = { path = "../lantmateriet/"}
+clap = "2.33"

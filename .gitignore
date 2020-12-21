@@ -1,0 +1,7 @@
+/target
+**/*.rs.bk
+mkgmap
+TODO.txt
+*.o5m
+*.osm
+Makefile

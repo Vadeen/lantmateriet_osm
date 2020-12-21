@@ -1,0 +1,54 @@
+# Highway
+layer=vl & (kkod=5011 | kkod=5811) [0x15 level 6]
+
+# Road class 1
+layer=vl & (kkod=5022 | kkod=5032 | kkod=5822 | kkod=5832) [0x12 level 5]
+
+# Road class 2
+layer=vl & (kkod=5025 | kkod=5033 | kkod=5044 | kkod=5825 |
+            kkod=5833) [0x13 level 5]
+
+# Road class 3
+layer=vl & (kkod=5029 | kkod=5034 | kkod=5829 | kkod=5834) [0x14 level 3]
+
+
+# Big street
+layer=vl & (kkod=5051 | kkod=5061 | kkod=5071 | kkod=5851 | kkod=5861 |
+            kkod=5871) [0x19 level 3]
+
+# Street
+layer=vl & (kkod=5056 | kkod=5058 | kkod=5082 | kkod=5091 | kkod=5844 |
+            kkod=5856 | kkod=5858 | kkod=5882 | kkod=5891) [0x18 level 3]
+
+# Trail
+layer=vo & (kkod=264 | kkod=5095) [0x1a level 2]
+
+# Marked trail
+layer=vo & (kkod=265 | kkod=268) [0x17 level 2]
+
+# Lighted trail
+layer=vo & (kkod=266) [0x16 level 2]
+
+# Bike path
+layer=vo & (kkod=5098) [0x11 level 2]
+
+# Water stream class 1
+layer=hl & (kkod=441 | kkod=513) [0xe level 3]
+
+# Water stream class 2
+layer=hl & (kkod=288 | kkod=455) [0xf level 2]
+
+# Water stream class 3
+layer=hl & (kkod=456) [0x10 level 2]
+
+# Power line
+layer=kl & (kkod=2611 | kkod=2612) [0xd level 2]
+
+# Height curve
+layer=oh & (kkod=568) [0x2 level 0]
+
+# Rail road TODO
+layer=jl & (kkod=270 | kkod=271 | kkod=272 | kkod=273 | kkod=274 | kkod=275 |
+            kkod=276 | kkod=278 | kkod=279 | kkod=286 | kkod=293) [0x1b level 5]
+
+# TODO rail roads etc
