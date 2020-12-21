@@ -50,7 +50,7 @@ This may take a while.
  lantmateriet_osm $ cd mkgmap
  mkgmap $ java -jar ~/Downloads/mkgmap.jar --family-id=909 ../styles/typfile.txt
  mkgmap $ java -jar ~/Downloads/splitter.jar ../map.o5m
- mkgmap $ java -jar $(MKGMAP_JAR) --gmapsupp --family-id=909 --style-file=../styles *.pbf *.typ
+ mkgmap $ java -jar ~/Downloads/mkgmap.jar --gmapsupp --family-id=909 --style-file=../styles *.pbf *.typ
 ```
 Where `~/Downloads/mkgmap.jar` and `~/Downloads/splitter.jar` are jars from the mkgmap project.
 
